@@ -39,4 +39,9 @@ O exercício requer basicamente manipulação de strings e armazenamento e contr
 A ideia do problema é dado uma palavra você deve imprimir a primeira letra daquela palavra;
 Basicamente pegamos um caracter dentro de uma cadeira de caracteres (ou vetor de caracteres) string;
 
+# Problema H (Dificuldade 4/10)
+A ideia do problema é dado uma posição (x, y) de uma casa inicial comparamos com outras posições (x, y) de outras casas verificando se a distância é menor ou igual a distância dada;
+Caso ao menos uma casa tenha a distância menor devemos imprimir conforme o exercício especifica, caso nenhuma seja encontrada, imprimos outra mensagem;
+Basicamente temos os pontos x0 e y0 da casa inicial e comparamos um a um com outros pontos x1 e y0 para encontrarmos a distância euclidiana;
+Ou seja utilizamos a fórmula da distância euclidiana onde d = sqrt((x0-x1)^2 + (y0-y1)^2)
 
