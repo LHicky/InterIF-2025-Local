@@ -45,3 +45,12 @@ Caso ao menos uma casa tenha a distância menor devemos imprimir conforme o exer
 Basicamente temos os pontos x0 e y0 da casa inicial e comparamos um a um com outros pontos x1 e y0 para encontrarmos a distância euclidiana;
 Ou seja utilizamos a fórmula da distância euclidiana onde d = sqrt((x0-x1)^2 + (y0-y1)^2)
 
+# Problema J (Dificuldade 6/10)
+A ideia do problema é de uma Sifra de César, mas ao invés de somarmos um número fixo devemos alterar entre soma e subtração para cada letra, somando ou subtraindo com o valor no alfabeto de outro texto;
+Por exemplo com texto lua e chave aaa como a é a prmieira letra do alfabeto tem valor 1, criptografamos fazendo (l - 1)(u + 1)(a - 1) = kvz (a vira z (ciclico));
+Trata-se de um exercício de manipulação de string e char utilizando a tabela ASCII que dá valores numéricos para caracteres convertendo caracteres para inteiros;
+
+# Problema I (Dificuldade 3/10)
+A idea do problema é de contar para cada número dado a quantidade de divisores que o número tem e armazenarmos o número com maior quantidade de divisores;
+Esse exercício pede o número com maior número de divisores, portanto tentamos dividi-lo por números de 2 até numero/2 e contamos quantos encontramos;
+Caso encontramos a mesma quantidade de divisores em dois ou mais números, armazenamos sempre o menor entre eles;
